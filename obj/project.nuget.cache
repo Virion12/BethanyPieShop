@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2cFI0Sy1idU=",
+  "dgSpecHash": "A3Jh7P1D0nY=",
   "success": true,
-  "projectFilePath": "C:\\Dev\\BethanyPiesShop\\BethanyPieShop\\BethanyPieShop.csproj",
+  "projectFilePath": "C:\\Dev\\BethanyPieShop\\BethanyPieShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\dom\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\dom\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",

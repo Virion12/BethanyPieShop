@@ -3,6 +3,7 @@ using BethanyPieShop.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace BethanyPieShop.Migrations
 {
     [DbContext(typeof(BethanysPieShopDbContext))]
-    partial class BethanysPieShopDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250802211640_initialmigration2")]
+    partial class initialmigration2
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -87,30 +90,6 @@ namespace BethanyPieShop.Migrations
                     b.ToTable("Pies");
                 });
 
-            modelBuilder.Entity("BethanyPieShop.Models.ShoppingCartItem", b =>
-                {
-                    b.Property<int>("ShoppingCartItemId")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("ShoppingCartItemId"));
-
-                    b.Property<int>("Amount")
-                        .HasColumnType("int");
-
-                    b.Property<int>("PieId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("ShoppingCartId")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.HasKey("ShoppingCartItemId");
-
-                    b.HasIndex("PieId");
-
-                    b.ToTable("ShoppingCartItems");
-                });
-
             modelBuilder.Entity("BethanyPieShop.Models.Pie", b =>
                 {
                     b.HasOne("BethanyPieShop.Models.Category", "Category")
@@ -120,17 +99,6 @@ namespace BethanyPieShop.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
-                });
-
-            modelBuilder.Entity("BethanyPieShop.Models.ShoppingCartItem", b =>
-                {
-                    b.HasOne("BethanyPieShop.Models.Pie", "Pie")
-                        .WithMany()
-                        .HasForeignKey("PieId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Pie");
                 });
 
             modelBuilder.Entity("BethanyPieShop.Models.Category", b =>

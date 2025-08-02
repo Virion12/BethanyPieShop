@@ -4727,11 +4727,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Dev\\BethanyPiesShop\\BethanyPieShop\\BethanyPieShop.csproj",
+      "projectUniqueName": "C:\\Dev\\BethanyPieShop\\BethanyPieShop.csproj",
       "projectName": "BethanyPieShop",
-      "projectPath": "C:\\Dev\\BethanyPiesShop\\BethanyPieShop\\BethanyPieShop.csproj",
+      "projectPath": "C:\\Dev\\BethanyPieShop\\BethanyPieShop.csproj",
       "packagesPath": "C:\\Users\\dom\\.nuget\\packages\\",
-      "outputPath": "C:\\Dev\\BethanyPiesShop\\BethanyPieShop\\obj\\",
+      "outputPath": "C:\\Dev\\BethanyPieShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
