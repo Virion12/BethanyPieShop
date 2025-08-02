@@ -19,9 +19,22 @@ namespace BethanyPieShop.Controlers
         {
             //ViewBag.CurrentCategory = "Chees Cake";
             //return View(_PieRepository.AllPies);
-            PieListViewModel pieListViewModel = new PieListViewModel(_PieRepository.AllPies, "Chees cakes");
+            PieListViewModel pieListViewModel = new PieListViewModel(_PieRepository.AllPies, "All pies");
             return View(pieListViewModel);
         }
+
+
+        public IActionResult Details(int id)
+        {
+            var pie = _PieRepository.GetPieById(id);
+            if (pie == null)
+            {
+                return NotFound();
+            }
+            return View(pie);
+
+        }
+
 
 
     }
