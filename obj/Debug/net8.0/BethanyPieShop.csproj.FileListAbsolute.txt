@@ -333,10 +333,10 @@ C:\Dev\BethanyPieShop\obj\Debug\net8.0\staticwebassets.build.json
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\staticwebassets.build.json.cache
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\staticwebassets.development.json
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\staticwebassets.build.endpoints.json
-C:\Dev\BethanyPieShop\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\BethanyP.4F15E89F.Up2Date
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\BethanyPieShop.dll
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\refint\BethanyPieShop.dll
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\BethanyPieShop.pdb
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\BethanyPieShop.genruntimeconfig.cache
 C:\Dev\BethanyPieShop\obj\Debug\net8.0\ref\BethanyPieShop.dll
+C:\Dev\BethanyPieShop\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
