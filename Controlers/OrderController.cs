@@ -6,7 +6,7 @@ namespace BethanyPieShop.Controlers
     public class OrderController : Controller
     {
         private readonly IOrderRepository _orderRepository;
-        private IShoppingCart _shoppingCart;
+        private readonly IShoppingCart _shoppingCart;
 
         public OrderController(IOrderRepository orderRepository, IShoppingCart shoppingCart)
         {
