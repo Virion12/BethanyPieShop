@@ -1,1 +1,44 @@
-[]
+[
+  {
+    "ContainingType": "BethanyPieShop.Controlers.Api.SearchController",
+    "Method": "GetAll",
+    "RelativePath": "api/Search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BethanyPieShop.Controlers.Api.SearchController",
+    "Method": "SearchPie",
+    "RelativePath": "api/Search",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "searchquery",
+        "Type": "System.String",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "BethanyPieShop.Controlers.Api.SearchController",
+    "Method": "GetById",
+    "RelativePath": "api/Search/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
